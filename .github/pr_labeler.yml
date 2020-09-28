@@ -1,0 +1,12 @@
+completed:
+    - "(completed|Completed)"
+on-hold:
+    - "(On hold|on hold|hold)" 
+documentation:
+    - "(documentation|Documentation)"
+no-Code:
+    - "(No Code)"  
+awaiting-review:
+    - "(Awaiting Review|awaiting review|Awaiting review)"
+merged:
+    - "(merged|Merged)"
