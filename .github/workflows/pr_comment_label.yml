@@ -1,4 +1,4 @@
-name: Pull Request review Labeler
+name: Pull Request Labeler
 
 on: [pull_request_review, pull_request_review_comment]
 
@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Labeler
+    - name: Pull Request Labeler
       uses: estrada9166/labeler@v1
       with:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
