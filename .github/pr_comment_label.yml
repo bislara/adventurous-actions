@@ -3,14 +3,14 @@ onComment:
       - help wanted
       - WIP
   
-  onApproved:
+onApproved:
     remove:
       - help wanted
     set:
       - First review
       - Ready to merge
   
-  onChangesRequested:
+onChangesRequested:
     remove:
       - bug
       - invalid
