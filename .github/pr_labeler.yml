@@ -2,4 +2,6 @@
 root-file:
     - ./*
 awaiting-review:
-        - /*
+    - /*
+python:
+    - python/*
