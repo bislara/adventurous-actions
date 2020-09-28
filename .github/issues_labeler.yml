@@ -1,24 +1,28 @@
+APIs:
+  - "(api|APIs|apis|API|APIS)"
 BASH:
   - "(Bash|bash|BASH)"
-JavaScript:
-  - "(JavaScript|JAVASCRIPT|Javascript|javascript|JS|js)"
-Python:
+javascript:
+  - "(JavaScript|JAVASCRIPT|Javascript|javascript|JS|js|Js)"
+python:
   - "(Python|PYTHON|python)"
 enhancement:
   - "(enhancement)"
-Easy:
+difficulty-easy:
   - "(Easy|easy)"  
-Medium:
+difficulty-medium:
   - "(Medium|medium)"
-Hard:
+difficulty-hard:
   - "(Hard|hard)"
+hacktoberfest:
+  - "(hacktoberfest|Hacktoberfest|Hacktober fest)"
 bug:
   - "(bug|Bug|BUG)"  
-Up-For-Grab:
+up-for-grab:
   - "(up for grab)"  
-Urgent:
+urgent:
   - "(urgent|URGENT|Urgent)"  
 documentation:
   - "(documentation)"
-No-Code:
+no-Code:
   - "(No Code)"  
