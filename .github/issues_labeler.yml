@@ -7,13 +7,17 @@ javascript:
 python:
   - "(Python|PYTHON|python)"
 enhancement:
-  - "(enhancement)"
+  - "(enhancement|Enhancement|enhance)"
 difficulty-easy:
   - "(Easy|easy)"  
 difficulty-medium:
   - "(Medium|medium)"
 difficulty-hard:
   - "(Hard|hard)"
+git:
+  - "(Git|git|GIT)"
+github-actions:
+  - "(GitHub actions|GIT actions|github actions)"
 hacktoberfest:
   - "(hacktoberfest|Hacktoberfest|Hacktober fest)"
 bug:
@@ -23,6 +27,6 @@ up-for-grab:
 urgent:
   - "(urgent|URGENT|Urgent)"  
 documentation:
-  - "(documentation)"
+  - "(documentation|Documentation)"
 no-Code:
   - "(No Code)"  
