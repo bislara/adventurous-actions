@@ -6,4 +6,4 @@ Testing GitHub Actions
 - PR labeler according to the files changed ongoing
 - PR labeler according to the reviews and comment ongoing
 - Auto assign reviewers and assignies done
-- Auto assign to reviewer and assignees
+- Working on merged PR comment
