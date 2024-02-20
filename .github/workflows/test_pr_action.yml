@@ -1,0 +1,14 @@
+on:
+  pull_request_target:
+    types:
+      - closed
+    branches:
+      - master
+
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true &&  github.event.pull_request.base.ref == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo The PR was merged
