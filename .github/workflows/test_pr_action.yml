@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main
+      - master
   pull_request_target:
     types:
       - closed
@@ -10,11 +10,11 @@ on:
 
 jobs:
   on_push_main:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
-      - name: Push event on main
-        run: echo "Push event detected on main branch"
+      - name: Push event on master
+        run: echo "Push event detected on master branch"
 
   on_pr_target_merged_to_default:
     if: github.event_name == 'pull_request_target' && github.event.pull_request.merged == true && github.event.pull_request.base.ref == github.event.repository.default_branch
